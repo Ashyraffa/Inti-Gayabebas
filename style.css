@@ -508,10 +508,17 @@ footer {
     flex: 1;
 }
 
-iframe, #viii-1, #kelompok4 {
+ #viii-1, #kelompok4 {
     max-width: 800px;
     max-height: 480px;
     height: auto;
+    width: 100%;
+}
+
+iframe {
+    max-width: 800px;
+    max-height: 480px;
+    height: 480px;
     width: 100%;
 }
 
