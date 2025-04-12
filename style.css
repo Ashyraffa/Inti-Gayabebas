@@ -317,7 +317,33 @@ nav > a:hover {
     width: 100%;
 }
 
-.overlay {
+#logo {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    transform: translateY(-50%);
+    z-index: 1000;
+}
+
+.overlay1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateY(-50%);
+    color: white;
+    max-width: 450px;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 105%;
+    left: 10%;
+    transform: translateY(-50%);
+    color: white;
+    max-width: 450px;
+}
+
+.overlay3 {
     position: absolute;
     top: 50%;
     left: 10%;
@@ -326,17 +352,27 @@ nav > a:hover {
     max-width: 450px;
 }
 
-.overlay h1 {
+#gensa {
+    border: 0;
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+}
+
+.overlay1 h1, .overlay2 h1, .overlay3 h1 {
     font-size: 32px;
     font-weight: bold;
 }
 
-.overlay p {
+.overlay1 p, .overlay2 p, .overlay3 p {
     font-size: 16px;
-    margin: 10px 0;
 }
 
-.overlay button {
+.overlay1 button, .overlay2 button, .overlay3 button {
     background-color: aquamarine;
     color: #333;
     padding: 10px 15px;
@@ -345,7 +381,7 @@ nav > a:hover {
     font-size: 16px;
 }
 
-.overlay button:hover {
+.overlay1 button:hover, .overlay2 button:hover, .overlay3 button:hover {
     background-color: lawngreen;
 }
 
