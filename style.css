@@ -679,11 +679,11 @@ iframe {
     display: none;
 }
 
-.photo .overlay {
+.photo .overlay1, .overlay2, .overlay3 {
     display: block;
 }
 
-.photo .overlay .link {
+.photo .overlay1,.overlay2, .overlay, .link {
     display: block;
 }
 
@@ -720,13 +720,20 @@ iframe {
     button:hover {
         background-color: lawngreen;
     }
+    
+    .overlay1 {
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        width: 100%;
+        font-size: 1.3rem;
+    }
 
-
-    .photo .overlay {
+    .photo .overlay2 {
         display: none;
     }
 
-    .photo .overlay .link {
+    .photo .overlay2 .link {
         display: none;
     }
 
