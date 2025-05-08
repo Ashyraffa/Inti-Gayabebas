@@ -326,18 +326,10 @@ nav > a:hover {
     z-index: 1000;
 }
 
-.overlay1 {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translateY(-50%);
-    color: white;
-    max-width: 450px;
-}
 
 .overlay2 {
     position: absolute;
-    top: 105%;
+    top: 50%;
     left: 10%;
     transform: translateY(-50%);
     color: white;
