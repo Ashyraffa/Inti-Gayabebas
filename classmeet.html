@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="icon" href="foto/Screenshot 2025-03-02 074304.png">
+        <link rel="stylesheet" href="style.css">
+        <title>Classmeet</title>
+        <style>
+            #first {
+                text-align: center;
+                padding: 11px;
+            }
+            #first h2 {
+                font-size: 40px;
+            }
+            #first p {
+                font-size: 19px;
+            }
+            #second, #third, #fourth, #fifth {
+                padding: 60px;
+            }
+            .classmeet {
+                width: 640px;
+                height: 360px;
+            }
+            #video1, #video2, #video3, #video4 {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 25px;
+            }
+            @media (max-width: 768px) {
+                #second, #third, #fourth, #fifth {
+                    padding: 0;
+                }
+                #second h2, #third h2, #fourth h2, #fifth h2 {
+                    text-align: center;
+                }
+            }
+        </style>
+    </head>
+    <body>
+         <header class="title">
+        <div class="name">
+          <h2>Inti Gayabebas</h2>
+        </div>
+            <button class="hamburger" id="hamburger-btn">More Options</button>
+            <nav id="nav-menu">
+                <div class="dropdown">
+                <a href="#">Our Memories</a>
+                <div class="dropdown-menu">
+                    <a href="puasa.html">Bulan Ramadhan</a>
+                    <a href="error.html">Hari Guru</a>
+                    <a href="error.html">Lomba Senam</a>
+                    <a href="error.html">Ulang Tahun Bu Aisha</a>
+                </div>
+                </div>
+                <div class="dropdown">
+                <a href="#">Tentang Kami</a>
+                <div class="dropdown-menu">
+                    <a href="siswa.html">Struktur Kelas</a>
+                    <a href="https://www.instagram.com/eight_onechampions/" target="_blank">Our Instagram</a>
+                    <a href="https://smpn1bandaaceh.sch.id" target="_blank">Website Sekolah</a>
+                </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+           <section id="first">
+            <h2>Classmeet</h2>
+            <p>Memori terakhir 8-1 sebelum kenaikan kelas 9.</p>
+            <p>Selamat Datang :3</p>
+           </section>
+           <br>
+           <section id="second">
+            <h2>Tarik Tambang (Anak Cowo)</h2>
+            <div id="video1">
+            <video class="classmeet" controls>
+                <source src="video/tarik-tambang.mp4" type="video/mp4">
+            </video>
+            <p>Tarik Tambang (Anak cowo), ini tak adillah- masa tempat sebelah licin mati <br>
+            Plus, 8-5 itu bawa Fatih bruhh- (susah) <br>
+            Atleast menanglah di putaran ke-2 wkwkwk</p>
+            </div>
+           </section>
+           <br>
+           <section id="third">
+            <h2>Tarik Tambang (Anak Cewe)</h2>
+            <div id="video2">
+            <video class="classmeet" controls>
+                <source src="video/tarik-tambang-cewe.mp4" type="video/mp4">
+            </video>
+            <p>Yeey mereka menang- Congrats :3</p>
+            </div>
+           </section>
+           <br>
+           <section id="fourth">
+            <h2>Oper Sarung</h2>
+            <div id="video3">
+                <video class="classmeet" controls>
+                    <source src="video/oper-sarung.mp4" type="video/mp4">
+                </video>
+                <p>Ga tau banyak sih soal lomba ini- sumpah wkwkw</p>
+            </div>
+           </section>
+           <br>
+           <section id="fifth">
+            <h2>Oper Tepung</h2>
+            <div id="video4">
+                <video class="classmeet" controls>
+                  <source src="video/oper-tepung.mp4" type="video/mp4">
+                </video>
+                <p>Sama sih- gw sekadar liat doang- idk what actually happens. ¬_¬</p>
+            </div>
+           </section>
+           <br>
+           <h2 style="text-align: center; font-size: 40px;">Thats All of Our Last Memories :D</h2>
+        </main>
+        <footer>
+        <div class="end">
+            <p>© 2025 Inti Gayabebas</p>
+            <p>Akun Instagram: <a href="https://www.instagram.com/eight_onechampions/" target="_blank">eight_onechampions</a></p>
+            <i>*Kelas 8-1 merupakan bagian dari SMPN 1 Banda Aceh</i>
+        </div>
+      </footer>
+    </body>
+</html>
